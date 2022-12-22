@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  CoffeAppUIKit
+
+  Created by Ahmed Yamany on 22/12/2022.
+  
+*/
+
+"stayFocused" = "Stay Focused";
+"welcomeDesc" = "Get the cup filled of your choice to stay focused and awake. Diffrent type of coffee menu, hot lottee cappucino";
+"diveIn" = "Dive In";

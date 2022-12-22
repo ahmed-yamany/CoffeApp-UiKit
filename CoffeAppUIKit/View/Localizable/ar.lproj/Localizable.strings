@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  CoffeAppUIKit
+
+  Created by Ahmed Yamany on 22/12/2022.
+  
+*/
+
+"stayFocused" = "ابق مستيقظا";
+"welcomeDesc" = "احصل على الكوب الذي تختاره لتظل مركزًا ومستيقظًا. نوع مختلف من قائمة القهوة ، لاتيه كابتشينو ساخن";
+"diveIn" = "الغوص في";
