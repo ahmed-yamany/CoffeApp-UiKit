@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="202" id="KGk-i7-Jjw" customClass="FindTheBestTableViewCell" customModule="CoffeAppUIKit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="458" height="202"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="458" height="202"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="byG-hG-VuO">
+                        <rect key="frame" x="23" y="23" width="412" height="156"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mbl-DR-Qj3">
+                                <rect key="frame" x="0.0" y="0.0" width="412" height="65.666666666666671"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find the best " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2e-by-FwQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="412" height="32.666666666666664"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coffee to your taste" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MpZ-65-Bby">
+                                        <rect key="frame" x="0.0" y="32.666666666666664" width="412" height="32.999999999999993"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r0p-zy-oAQ">
+                                <rect key="frame" x="0.0" y="90.666666666666686" width="412" height="65.333333333333314"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g0T-kj-sJw">
+                                        <rect key="frame" x="0.0" y="7.6666666666666572" width="268" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Oxy-JN-wcS"/>
+                                            <constraint firstAttribute="width" constant="268" id="sLD-5d-ED1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9D-hd-G6h">
+                                        <rect key="frame" x="362" y="7.6666666666666572" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="jNF-r1-EOl"/>
+                                            <constraint firstAttribute="width" constant="50" id="n83-UZ-20l"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="l9D-hd-G6h" firstAttribute="centerY" secondItem="r0p-zy-oAQ" secondAttribute="centerY" id="8hr-61-C8i"/>
+                                    <constraint firstItem="g0T-kj-sJw" firstAttribute="leading" secondItem="r0p-zy-oAQ" secondAttribute="leading" id="jri-Vt-tUe"/>
+                                    <constraint firstAttribute="trailing" secondItem="l9D-hd-G6h" secondAttribute="trailing" id="qzj-nu-jYR"/>
+                                    <constraint firstItem="g0T-kj-sJw" firstAttribute="centerY" secondItem="r0p-zy-oAQ" secondAttribute="centerY" id="y9t-Zc-t7n"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="byG-hG-VuO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="23" id="4nw-Zq-IAq"/>
+                    <constraint firstItem="byG-hG-VuO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="23" id="Gb3-fe-BKC"/>
+                    <constraint firstAttribute="bottom" secondItem="byG-hG-VuO" secondAttribute="bottom" constant="23" id="Imn-SA-ZgI"/>
+                    <constraint firstAttribute="trailing" secondItem="byG-hG-VuO" secondAttribute="trailing" constant="23" id="Pd5-ox-l5T"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="coffeToYourTasteLabel" destination="MpZ-65-Bby" id="Ae0-m2-Vjp"/>
+                <outlet property="findTheBestLabel" destination="m2e-by-FwQ" id="LIe-23-6pG"/>
+                <outlet property="searchButton" destination="l9D-hd-G6h" id="ava-k9-rpP"/>
+                <outlet property="searchTextFiled" destination="g0T-kj-sJw" id="0TM-M4-4I7"/>
+            </connections>
+            <point key="canvasLocation" x="230.76923076923077" y="44.7867298578199"/>
+        </tableViewCell>
+    </objects>
+</document>

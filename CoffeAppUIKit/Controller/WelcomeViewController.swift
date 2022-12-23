@@ -17,31 +17,34 @@ class WelcomeViewController: UIViewController {
     // MARK: - Views
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = ColorManager.shared.welcomeBackground
+        view.backgroundColor = ColorManager.welcomeBackground
         updateStayFocusedLabel()
         updateDesctiptionLabel()
         updateDiveInButton()
     }
     
     private func updateStayFocusedLabel(){
-        stayFocusedLabel.textColor = ColorManager.shared.text
-        stayFocusedLabel.text = LocalizableManager.shared.stayFocused
+        stayFocusedLabel.textColor = ColorManager.text
+        stayFocusedLabel.text = LocalizableManager.stayFocused
         stayFocusedLabel.font = UIFont.systemFont(ofSize: 32, weight: .bold)
     }
 
     private func updateDesctiptionLabel(){
-        descriptionLabel.textColor = ColorManager.shared.description
-        descriptionLabel.text = LocalizableManager.shared.welcomeDesc
+        descriptionLabel.textColor = ColorManager.description
+        descriptionLabel.text = LocalizableManager.welcomeDesc
     }
     
     private func updateDiveInButton(){
-        diveInButton.setTitle(LocalizableManager.shared.diveIn, for: .normal)
+        diveInButton.setTitle(LocalizableManager.diveIn, for: .normal)
         diveInButton.layer.cornerRadius = 30
-        diveInButton.setTitleColor(ColorManager.shared.reversedText, for: .normal)
+        diveInButton.setTitleColor(ColorManager.reversedText, for: .normal)
     }
     
     
     @IBAction func DiveInButtonTapped(_ sender: UIButton) {
+        let coreTB = CoreTabBarController()
+        coreTB.modalPresentationStyle = .fullScreen
+        present(coreTB, animated: true)
     }
     
 }

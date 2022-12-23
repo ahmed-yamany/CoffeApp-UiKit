@@ -11,6 +11,19 @@
 		7309812D2954BD6B00249EB0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7309812F2954BD6B00249EB0 /* Localizable.strings */; };
 		730981322954BDE800249EB0 /* LocalizableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730981312954BDE800249EB0 /* LocalizableManager.swift */; };
 		730981352954C43600249EB0 /* CoreTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730981342954C43600249EB0 /* CoreTabBarController.swift */; };
+		7309813A2954C63C00249EB0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730981382954C63C00249EB0 /* HomeViewController.swift */; };
+		7309813B2954C63C00249EB0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 730981392954C63C00249EB0 /* HomeViewController.xib */; };
+		7309813F2954C67500249EB0 /* LovedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7309813D2954C67500249EB0 /* LovedViewController.swift */; };
+		730981402954C67500249EB0 /* LovedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7309813E2954C67500249EB0 /* LovedViewController.xib */; };
+		730981432954C68800249EB0 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730981412954C68800249EB0 /* CartViewController.swift */; };
+		730981442954C68800249EB0 /* CartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 730981422954C68800249EB0 /* CartViewController.xib */; };
+		730981472954C69E00249EB0 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730981452954C69E00249EB0 /* NotificationViewController.swift */; };
+		730981482954C69E00249EB0 /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 730981462954C69E00249EB0 /* NotificationViewController.xib */; };
+		7309814B2954C6AF00249EB0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730981492954C6AF00249EB0 /* ProfileViewController.swift */; };
+		7309814C2954C6AF00249EB0 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7309814A2954C6AF00249EB0 /* ProfileViewController.xib */; };
+		730981512955F4A600249EB0 /* FindTheBestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7309814F2955F4A500249EB0 /* FindTheBestTableViewCell.swift */; };
+		730981522955F4A600249EB0 /* FindTheBestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 730981502955F4A500249EB0 /* FindTheBestTableViewCell.xib */; };
+		7309815429560E0100249EB0 /* +UITextFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7309815329560E0100249EB0 /* +UITextFiled.swift */; };
 		730AEE6E2954A36800291946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AEE6D2954A36800291946 /* AppDelegate.swift */; };
 		730AEE702954A36800291946 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AEE6F2954A36800291946 /* SceneDelegate.swift */; };
 		730AEE772954A36900291946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730AEE762954A36900291946 /* Assets.xcassets */; };
@@ -48,6 +61,19 @@
 		730981302954BD6E00249EB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		730981312954BDE800249EB0 /* LocalizableManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableManager.swift; sourceTree = "<group>"; };
 		730981342954C43600249EB0 /* CoreTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTabBarController.swift; sourceTree = "<group>"; };
+		730981382954C63C00249EB0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		730981392954C63C00249EB0 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		7309813D2954C67500249EB0 /* LovedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LovedViewController.swift; sourceTree = "<group>"; };
+		7309813E2954C67500249EB0 /* LovedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LovedViewController.xib; sourceTree = "<group>"; };
+		730981412954C68800249EB0 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		730981422954C68800249EB0 /* CartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartViewController.xib; sourceTree = "<group>"; };
+		730981452954C69E00249EB0 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		730981462954C69E00249EB0 /* NotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
+		730981492954C6AF00249EB0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7309814A2954C6AF00249EB0 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		7309814F2955F4A500249EB0 /* FindTheBestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheBestTableViewCell.swift; sourceTree = "<group>"; };
+		730981502955F4A500249EB0 /* FindTheBestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FindTheBestTableViewCell.xib; sourceTree = "<group>"; };
+		7309815329560E0100249EB0 /* +UITextFiled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+UITextFiled.swift"; sourceTree = "<group>"; };
 		730AEE6A2954A36800291946 /* CoffeAppUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeAppUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		730AEE6D2954A36800291946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		730AEE6F2954A36800291946 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,8 +128,59 @@
 			isa = PBXGroup;
 			children = (
 				730981342954C43600249EB0 /* CoreTabBarController.swift */,
+				7309813C2954C64800249EB0 /* ViewControllers */,
+				7309814D2955F41C00249EB0 /* TableViewCells */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		730981362954C60100249EB0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				730981372954C62400249EB0 /* ViewControllers */,
+				7309814E2955F42F00249EB0 /* TableViewCells */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		730981372954C62400249EB0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				730981392954C63C00249EB0 /* HomeViewController.xib */,
+				7309813E2954C67500249EB0 /* LovedViewController.xib */,
+				730981422954C68800249EB0 /* CartViewController.xib */,
+				730981462954C69E00249EB0 /* NotificationViewController.xib */,
+				7309814A2954C6AF00249EB0 /* ProfileViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7309813C2954C64800249EB0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				730981382954C63C00249EB0 /* HomeViewController.swift */,
+				7309813D2954C67500249EB0 /* LovedViewController.swift */,
+				730981412954C68800249EB0 /* CartViewController.swift */,
+				730981452954C69E00249EB0 /* NotificationViewController.swift */,
+				730981492954C6AF00249EB0 /* ProfileViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7309814D2955F41C00249EB0 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				7309814F2955F4A500249EB0 /* FindTheBestTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		7309814E2955F42F00249EB0 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				730981502955F4A500249EB0 /* FindTheBestTableViewCell.xib */,
+			);
+			path = TableViewCells;
 			sourceTree = "<group>";
 		};
 		730AEE612954A36800291946 = {
@@ -180,6 +257,7 @@
 				730AEEA92954AF3E00291946 /* WelcomeViewController.xib */,
 				730AEEA12954A6B100291946 /* Storyboard */,
 				7309812A2954BD1100249EB0 /* Localizable */,
+				730981362954C60100249EB0 /* Core */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -215,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				730AEEA62954ABFB00291946 /* +UIColor.swift */,
+				7309815329560E0100249EB0 /* +UITextFiled.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -324,9 +403,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7309814C2954C6AF00249EB0 /* ProfileViewController.xib in Resources */,
 				730AEE7A2954A36900291946 /* LaunchScreen.storyboard in Resources */,
+				730981402954C67500249EB0 /* LovedViewController.xib in Resources */,
 				7309812D2954BD6B00249EB0 /* Localizable.strings in Resources */,
+				7309813B2954C63C00249EB0 /* HomeViewController.xib in Resources */,
 				730AEE772954A36900291946 /* Assets.xcassets in Resources */,
+				730981522955F4A600249EB0 /* FindTheBestTableViewCell.xib in Resources */,
+				730981482954C69E00249EB0 /* NotificationViewController.xib in Resources */,
+				730981442954C68800249EB0 /* CartViewController.xib in Resources */,
 				730AEEAB2954AF3E00291946 /* WelcomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,10 +439,17 @@
 			files = (
 				730AEE6E2954A36800291946 /* AppDelegate.swift in Sources */,
 				730AEEAA2954AF3E00291946 /* WelcomeViewController.swift in Sources */,
+				730981472954C69E00249EB0 /* NotificationViewController.swift in Sources */,
 				730981282954B3E100249EB0 /* AssetsManager.swift in Sources */,
+				7309813F2954C67500249EB0 /* LovedViewController.swift in Sources */,
+				7309815429560E0100249EB0 /* +UITextFiled.swift in Sources */,
 				730AEEA72954ABFB00291946 /* +UIColor.swift in Sources */,
+				730981512955F4A600249EB0 /* FindTheBestTableViewCell.swift in Sources */,
 				730AEE702954A36800291946 /* SceneDelegate.swift in Sources */,
+				7309813A2954C63C00249EB0 /* HomeViewController.swift in Sources */,
+				730981432954C68800249EB0 /* CartViewController.swift in Sources */,
 				730981322954BDE800249EB0 /* LocalizableManager.swift in Sources */,
+				7309814B2954C6AF00249EB0 /* ProfileViewController.swift in Sources */,
 				730981352954C43600249EB0 /* CoreTabBarController.swift in Sources */,
 				730AEEA42954A7CC00291946 /* ColorManager.swift in Sources */,
 			);

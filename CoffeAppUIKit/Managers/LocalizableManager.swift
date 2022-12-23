@@ -8,9 +8,11 @@
 import UIKit
 
 struct LocalizableManager{
-    static let shared = LocalizableManager()
     
-    let stayFocused = NSLocalizedString("stayFocused", comment: "Stay Focused")
-    let welcomeDesc = NSLocalizedString("welcomeDesc", comment: "Get the cup filled of your choice to stay focused and awake. Diffrent type of coffee menu, hot lottee cappucino")
-    let diveIn = NSLocalizedString("diveIn", comment: "Dive In")
+    static let stayFocused = NSLocalizedString("stayFocused", comment: "Stay Focused")
+    static let welcomeDesc = NSLocalizedString("welcomeDesc", comment: "Get the cup filled of your choice to stay focused and awake. Diffrent type of coffee menu, hot lottee cappucino")
+    static let diveIn = NSLocalizedString("diveIn", comment: "Dive In")
+    static let findCoffee = NSLocalizedString("findCoffee", comment: "Find your coffee...")
+    static let findTheBest = NSLocalizedString("findTheBest", comment: "Find the best")
+    static let coffeeToYourTaste = NSLocalizedString("coffeeToYourTaste", comment: "Coffee to your taste")
 }
