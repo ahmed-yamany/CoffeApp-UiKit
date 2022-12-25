@@ -40,7 +40,6 @@ class WelcomeViewController: UIViewController {
         diveInButton.setTitleColor(ColorManager.reversedText, for: .normal)
     }
     
-    
     @IBAction func DiveInButtonTapped(_ sender: UIButton) {
         let coreTB = CoreTabBarController()
         coreTB.modalPresentationStyle = .fullScreen

@@ -15,4 +15,10 @@ struct LocalizableManager{
     static let findCoffee = NSLocalizedString("findCoffee", comment: "Find your coffee...")
     static let findTheBest = NSLocalizedString("findTheBest", comment: "Find the best")
     static let coffeeToYourTaste = NSLocalizedString("coffeeToYourTaste", comment: "Coffee to your taste")
+    static let espresso = NSLocalizedString("espresso", comment: "Espresso")
+    static let latte = NSLocalizedString("latte", comment: "Espresso")
+    static let cappuccino = NSLocalizedString("cappuccino", comment: "Espresso")
+    static let cafetiere = NSLocalizedString("cafetiere", comment: "Espresso")
+    
+    
 }

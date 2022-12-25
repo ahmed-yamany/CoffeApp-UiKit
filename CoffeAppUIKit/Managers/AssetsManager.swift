@@ -8,7 +8,6 @@
 import UIKit
 
 struct AssetsManager{
-    
     static let cupOfCoffee = UIImage(named: "cupOfCoffee")
     static let icons = Icons.self
     static let avatar = UIImage(named: "Avatar")?.withRenderingMode(.alwaysOriginal)

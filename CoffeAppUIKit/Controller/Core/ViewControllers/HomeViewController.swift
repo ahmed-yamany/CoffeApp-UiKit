@@ -16,8 +16,8 @@ class HomeViewController: UIViewController {
         let tableView = UITableView()
         tableView.backgroundColor = ColorManager.coreBackground
         tableView.register(UINib(nibName: FindTheBestTableViewCell.identifier, bundle: nil), forCellReuseIdentifier: FindTheBestTableViewCell.identifier)
+        tableView.register(UINib(nibName: CoffeesTableViewCell.identifier, bundle: nil), forCellReuseIdentifier: CoffeesTableViewCell.identifier)
         
-//        tableView.allowsSelection = false
         tableView.separatorStyle = .none
         tableView.allowsSelection = false
         tableView.delegate = self
@@ -57,7 +57,7 @@ extension HomeViewController: UITableViewDataSource{
         return 1
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return 2
     }
     
 }
@@ -67,19 +67,21 @@ extension HomeViewController: UITableViewDelegate{
             switch indexPath{
             case FindTheBestTableViewCell.indexPath:
                 return tableView.dequeueReusableCell(withIdentifier: FindTheBestTableViewCell.identifier) ?? UITableViewCell()
-    
+            case CoffeesTableViewCell.indexPath:
+                return tableView.dequeueReusableCell(withIdentifier: CoffeesTableViewCell.identifier) ?? UITableViewCell()
             default:
                 return UITableViewCell()
             }
-    
         }
     
         func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
             switch indexPath{
             case FindTheBestTableViewCell.indexPath:
                 return 170
+            case CoffeesTableViewCell.indexPath:
+                return 278
             default:
-                return tableView.estimatedRowHeight
+                return 0
             }
         }
     

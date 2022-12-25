@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class LovedViewController: UIViewController {
 
@@ -13,6 +14,20 @@ class LovedViewController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = ColorManager.coreBackground
+        
+        let hostingController = UIHostingController(rootView: CoffeeScrollView())
+        
+        guard let cell = hostingController.view else { return}
+//        self.addChild(hostingController)
+        self.view.addSubview(cell)
+        
+        cell.translatesAutoresizingMaskIntoConstraints = false
+        
+        NSLayoutConstraint.activate([
+            cell.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            cell.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+        ])
+        
     }
 
 

@@ -35,6 +35,11 @@
 		730AEEA72954ABFB00291946 /* +UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AEEA62954ABFB00291946 /* +UIColor.swift */; };
 		730AEEAA2954AF3E00291946 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AEEA82954AF3E00291946 /* WelcomeViewController.swift */; };
 		730AEEAB2954AF3E00291946 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 730AEEA92954AF3E00291946 /* WelcomeViewController.xib */; };
+		73B0AF99295645E00068AFD5 /* CoffeesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B0AF97295645E00068AFD5 /* CoffeesTableViewCell.swift */; };
+		73B0AF9A295645E00068AFD5 /* CoffeesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73B0AF98295645E00068AFD5 /* CoffeesTableViewCell.xib */; };
+		73FFD85A2958AA200062ABBA /* CoffeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FFD8592958AA200062ABBA /* CoffeView.swift */; };
+		73FFD85C2958BAB20062ABBA /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FFD85B2958BAB20062ABBA /* Coffee.swift */; };
+		73FFD85E2958BDA60062ABBA /* CoffeeScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FFD85D2958BDA60062ABBA /* CoffeeScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +94,11 @@
 		730AEEA62954ABFB00291946 /* +UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+UIColor.swift"; sourceTree = "<group>"; };
 		730AEEA82954AF3E00291946 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		730AEEA92954AF3E00291946 /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		73B0AF97295645E00068AFD5 /* CoffeesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeesTableViewCell.swift; sourceTree = "<group>"; };
+		73B0AF98295645E00068AFD5 /* CoffeesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoffeesTableViewCell.xib; sourceTree = "<group>"; };
+		73FFD8592958AA200062ABBA /* CoffeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeView.swift; sourceTree = "<group>"; };
+		73FFD85B2958BAB20062ABBA /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		73FFD85D2958BDA60062ABBA /* CoffeeScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +140,8 @@
 				730981342954C43600249EB0 /* CoreTabBarController.swift */,
 				7309813C2954C64800249EB0 /* ViewControllers */,
 				7309814D2955F41C00249EB0 /* TableViewCells */,
+				73FFD8592958AA200062ABBA /* CoffeView.swift */,
+				73FFD85D2958BDA60062ABBA /* CoffeeScrollView.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -171,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				7309814F2955F4A500249EB0 /* FindTheBestTableViewCell.swift */,
+				73B0AF97295645E00068AFD5 /* CoffeesTableViewCell.swift */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -179,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				730981502955F4A500249EB0 /* FindTheBestTableViewCell.xib */,
+				73B0AF98295645E00068AFD5 /* CoffeesTableViewCell.xib */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -247,6 +261,7 @@
 		730AEE9E2954A67E00291946 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				73FFD85B2958BAB20062ABBA /* Coffee.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -403,6 +418,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73B0AF9A295645E00068AFD5 /* CoffeesTableViewCell.xib in Resources */,
 				7309814C2954C6AF00249EB0 /* ProfileViewController.xib in Resources */,
 				730AEE7A2954A36900291946 /* LaunchScreen.storyboard in Resources */,
 				730981402954C67500249EB0 /* LovedViewController.xib in Resources */,
@@ -438,9 +454,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				730AEE6E2954A36800291946 /* AppDelegate.swift in Sources */,
+				73FFD85C2958BAB20062ABBA /* Coffee.swift in Sources */,
 				730AEEAA2954AF3E00291946 /* WelcomeViewController.swift in Sources */,
 				730981472954C69E00249EB0 /* NotificationViewController.swift in Sources */,
+				73B0AF99295645E00068AFD5 /* CoffeesTableViewCell.swift in Sources */,
+				73FFD85A2958AA200062ABBA /* CoffeView.swift in Sources */,
 				730981282954B3E100249EB0 /* AssetsManager.swift in Sources */,
+				73FFD85E2958BDA60062ABBA /* CoffeeScrollView.swift in Sources */,
 				7309813F2954C67500249EB0 /* LovedViewController.swift in Sources */,
 				7309815429560E0100249EB0 /* +UITextFiled.swift in Sources */,
 				730AEEA72954ABFB00291946 /* +UIColor.swift in Sources */,
